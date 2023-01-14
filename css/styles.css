@@ -126,7 +126,7 @@ img {
     
     .contact-mail:hover,
     .contact-mail:focus {
-       color: #434455;
+       color: #404BBF;
     }
 
     .phone-number{
@@ -152,7 +152,7 @@ img {
 
     .menu-link:hover,
     .menu-link:focus {
-        color: #2E2F42;
+        color: #404BBF;
     }
 
 
@@ -166,6 +166,7 @@ img {
     text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
+    margin: 0auto;
     background: #2E2F42;
     
 }
@@ -180,7 +181,6 @@ background-size: cover;
 
 .text-list-item {
     width: 264px;
-    margin-right: 24px;
 }
 
 .second-section {
@@ -427,7 +427,7 @@ height: 64px;
 .customers-section {
     padding-top: 130px;
     padding-bottom: 120px;
-    background-color: #E5E5E5;
+    background-color: #F4F4FD;
 }
 
 .customers {
@@ -443,7 +443,6 @@ text-transform: capitalize;
 }
 
 .customers-list-link {
-    box-sizing: border-box;
     border: 1px solid #8E8F99;
 border-radius: 4px;
     display: flex;
@@ -451,8 +450,18 @@ border-radius: 4px;
     align-items: center;
     width: 168px;
     height: 88px;
-    
+    fill :#8E8F99;
+
 }
+
+
+.customers-list-link:hover,
+.customers-list-link:focus {
+
+    border: 1px solid #404BBF;
+    fill :#404BBF;
+}
+
 
 .customers-list-icon {
     fill: #8E8F99;
@@ -616,6 +625,8 @@ color: #2E2F42;
 .cards-item {
     background: #FFFFFF;
     margin-bottom: 24px;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
     
 }
 
