@@ -166,7 +166,7 @@ img {
     text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
-    margin: 0auto;
+    margin: 0 auto;
     background: #2E2F42;
     
 }
@@ -427,7 +427,7 @@ height: 64px;
 .customers-section {
     padding-top: 130px;
     padding-bottom: 120px;
-    background-color: #F4F4FD;
+    
 }
 
 .customers {
@@ -450,7 +450,8 @@ border-radius: 4px;
     align-items: center;
     width: 168px;
     height: 88px;
-    fill :#8E8F99;
+    fill: #8E8F99;
+    
 
 }
 
@@ -463,9 +464,7 @@ border-radius: 4px;
 }
 
 
-.customers-list-icon {
-    fill: #8E8F99;
-}
+
 
 .customers-list {
     display: flex;
@@ -625,9 +624,14 @@ color: #2E2F42;
 .cards-item {
     background: #FFFFFF;
     margin-bottom: 24px;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
+
     
+}
+
+.cards-item:hover,
+.cards-item:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .cards-text {
